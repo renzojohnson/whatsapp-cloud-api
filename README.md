@@ -1,8 +1,14 @@
 # WhatsApp Cloud API for PHP
 
+[![Latest Version](https://img.shields.io/packagist/v/renzojohnson/whatsapp-cloud-api.svg)](https://packagist.org/packages/renzojohnson/whatsapp-cloud-api)
+[![PHP Version](https://img.shields.io/packagist/php-v/renzojohnson/whatsapp-cloud-api.svg)](https://packagist.org/packages/renzojohnson/whatsapp-cloud-api)
+[![License](https://img.shields.io/packagist/l/renzojohnson/whatsapp-cloud-api.svg)](https://github.com/renzojohnson/whatsapp-cloud-api/blob/main/LICENSE)
+
 Lightweight PHP wrapper for [Meta's WhatsApp Cloud API](https://developers.facebook.com/docs/whatsapp/cloud-api). Zero dependencies.
 
 Send text, template, image, document, video, audio, location, contact, and sticker messages. Receive and verify webhooks.
+
+**Author:** [Renzo Johnson](https://renzojohnson.com)
 
 ## Requirements
 
@@ -234,6 +240,13 @@ composer install
 vendor/bin/phpunit
 ```
 
+## Links
+
+- [Packagist](https://packagist.org/packages/renzojohnson/whatsapp-cloud-api)
+- [GitHub](https://github.com/renzojohnson/whatsapp-cloud-api)
+- [Issues](https://github.com/renzojohnson/whatsapp-cloud-api/issues)
+- [Author](https://renzojohnson.com)
+
 ## License
 
-MIT
+MIT License. Copyright (c) 2026 [Renzo Johnson](https://renzojohnson.com).
