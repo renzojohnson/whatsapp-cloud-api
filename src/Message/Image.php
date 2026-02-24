@@ -1,0 +1,38 @@
+<?php
+
+declare(strict_types=1);
+
+namespace RenzoJohnson\WhatsApp\Message;
+
+final readonly class Image
+{
+    public function __construct(
+        private string $to,
+        private ?string $link = null,
+        private ?string $mediaId = null,
+        private ?string $caption = null,
+    ) {}
+
+    public function toArray(): array
+    {
+        $image = [];
+
+        if ($this->mediaId !== null) {
+            $image['id'] = $this->mediaId;
+        } else {
+            $image['link'] = $this->link;
+        }
+
+        if ($this->caption !== null) {
+            $image['caption'] = $this->caption;
+        }
+
+        return [
+            'messaging_product' => 'whatsapp',
+            'recipient_type' => 'individual',
+            'to' => $this->to,
+            'type' => 'image',
+            'image' => $image,
+        ];
+    }
+}
