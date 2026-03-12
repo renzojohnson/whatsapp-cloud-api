@@ -3,7 +3,7 @@
     "description": "Lightweight PHP wrapper for Meta's WhatsApp Cloud API. Send text, template, image, document, video, audio, location, contact, and sticker messages. Receive webhooks with signature verification. Zero dependencies.",
     "type": "library",
     "license": "MIT",
-    "homepage": "https://renzojohnson.com",
+    "homepage": "https://renzojohnson.com/contributions/whatsapp-cloud-api",
     "keywords": [
         "whatsapp",
         "whatsapp-cloud-api",
